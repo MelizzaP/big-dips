@@ -20,6 +20,7 @@
     "react/jsx-filename-extension": ["off"],
     "no-use-before-define": ["off"],
     "react/require-default-props": ["off"],
-    "no-unused-vars": ["warn"]
+    "no-unused-vars": ["warn"],
+    "react/no-unescaped-entities": ["warn"]
   }
 }
