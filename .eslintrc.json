@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": ["plugin:react/recommended", "eslint:recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -17,6 +17,9 @@
     "comma-dangle": ["off"],
     "arrow-parens": ["off"],
     "object-curly-newline": ["off"],
-    "react/jsx-filename-extension": ["off"]
+    "react/jsx-filename-extension": ["off"],
+    "no-use-before-define": ["off"],
+    "react/require-default-props": ["off"],
+    "no-unused-vars": ["warn"]
   }
 }
