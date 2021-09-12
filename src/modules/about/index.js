@@ -1,9 +1,12 @@
 import React from 'react'
 
+import picture from '../../assets/melissa-laura.JPG'
+
 export default function About() {
   return (
     <div className="my-32 mx-16 flex flex-col items-center gap-y-6">
-      <h1 className="text-3xl">Our Story</h1>
+      <h1 className="text-3xl underline">Our Story</h1>
+      <img src={picture} alt="Melissa and Laura" className="max-h-64 rounded-md drop-shadow" />
       <p className="text-xl text-center">
         This company came to be because of Melissa always wanting a Vitamix. Laura thought they were
         too expensive and dragged her feet on the purchase but during the covid lockdown of 2020,
